@@ -16,6 +16,7 @@ namespace WindowsFormsApplication3
         [STAThread]
         static void Main()
         {
+            //lalalalalalalalalalaalala jamejame ja
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MenuPrincipal());
