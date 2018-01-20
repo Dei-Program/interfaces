@@ -34,6 +34,7 @@
             this.modificarFacturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eliminarCancelarFacturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -46,7 +47,7 @@
             this.eliminarCancelarFacturaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(481, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(624, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -61,7 +62,7 @@
             // 
             this.modificarFacturaToolStripMenuItem.Name = "modificarFacturaToolStripMenuItem";
             this.modificarFacturaToolStripMenuItem.Size = new System.Drawing.Size(112, 20);
-            this.modificarFacturaToolStripMenuItem.Text = "Modificar Factura";
+            this.modificarFacturaToolStripMenuItem.Text = "Consultar Factura";
             this.modificarFacturaToolStripMenuItem.Click += new System.EventHandler(this.modificarFacturaToolStripMenuItem_Click);
             // 
             // eliminarCancelarFacturaToolStripMenuItem
@@ -74,7 +75,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(91, 27);
+            this.pictureBox1.Location = new System.Drawing.Point(157, 41);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(293, 236);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -82,15 +83,28 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // Form1
+            // button6
+            // 
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.button6.Location = new System.Drawing.Point(0, 41);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(151, 43);
+            this.button6.TabIndex = 46;
+            this.button6.Text = "REGRESAR";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // FacturacionMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 264);
+            this.ClientSize = new System.Drawing.Size(624, 345);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "FacturacionMenu";
             this.Text = "Facturación";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
@@ -108,6 +122,7 @@
         private System.Windows.Forms.ToolStripMenuItem modificarFacturaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eliminarCancelarFacturaToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button6;
     }
 }
 

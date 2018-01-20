@@ -88,7 +88,9 @@ namespace WindowsFormsApplication3
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-
+            FacturacionMenu menufact = new FacturacionMenu();
+            menufact.Show();
+            this.Hide();
         }
 
         private void Form2_Load(object sender, EventArgs e)

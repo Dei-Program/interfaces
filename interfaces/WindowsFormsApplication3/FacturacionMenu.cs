@@ -31,12 +31,14 @@ namespace WindowsFormsApplication3
         {
             RegistrarFactura lo = new RegistrarFactura();
             lo.Show();
+            this.Hide();
         }
 
         private void modificarFacturaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form7 fo = new Form7();
             fo.Show();
+            this.Hide();
 
         }
 
@@ -44,6 +46,15 @@ namespace WindowsFormsApplication3
         {
             Form6 fo = new Form6();
             fo.Show();
+            this.Hide();
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MenuPrincipal menu = new  MenuPrincipal();
+            menu.Show();
+            this.Hide();
 
         }
     }
