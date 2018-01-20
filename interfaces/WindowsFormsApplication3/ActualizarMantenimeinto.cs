@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication3
 {
-    public partial class Form9 : Form
+    public partial class ActualizarMantenimeinto : Form
     {
-        public Form9()
+        public ActualizarMantenimeinto()
         {
             InitializeComponent();
         }

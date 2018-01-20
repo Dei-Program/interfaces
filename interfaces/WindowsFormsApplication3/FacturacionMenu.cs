@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication3
 {
-    public partial class Form1 : Form
+    public partial class FacturacionMenu : Form
     {
-        public Form1()
+        public FacturacionMenu()
         {
             InitializeComponent();
         }
@@ -29,7 +29,7 @@ namespace WindowsFormsApplication3
 
         private void holaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 lo = new Form2();
+            RegistrarFactura lo = new RegistrarFactura();
             lo.Show();
         }
 

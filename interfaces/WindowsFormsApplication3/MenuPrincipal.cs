@@ -29,6 +29,7 @@ namespace WindowsFormsApplication3
 
         private void facturaciónToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            
 
         }
 
@@ -61,6 +62,13 @@ namespace WindowsFormsApplication3
         {
             ModClientes fo = new ModClientes();
             fo.Show();
+            this.Hide();
+        }
+
+        private void mantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FacturacionMenu menufact = new FacturacionMenu();
+            menufact.Show();
             this.Hide();
         }
     }

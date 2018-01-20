@@ -97,6 +97,7 @@
             this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
             this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
             this.mantenimientoToolStripMenuItem.Text = "Facturación";
+            this.mantenimientoToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoToolStripMenuItem_Click);
             // 
             // administraciónToolStripMenuItem
             // 
@@ -191,7 +192,7 @@
             this.button2.TabIndex = 12;
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // Form3
+            // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -206,7 +207,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form3";
+            this.Name = "MenuPrincipal";
             this.Text = "Sistema de Gestión, Facturación y Mantenimiento (SGFM) [versión 1.0]";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.menuStrip1.ResumeLayout(false);

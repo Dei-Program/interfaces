@@ -61,11 +61,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FacturacionMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FacturacionMenu.Designer.cs">
+      <DependentUpon>FacturacionMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="ModClientes.cs">
       <SubType>Form</SubType>
@@ -73,11 +73,11 @@
     <Compile Include="ModClientes.Designer.cs">
       <DependentUpon>ModClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="RegistrarFactura.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="RegistrarFactura.Designer.cs">
+      <DependentUpon>RegistrarFactura.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -91,11 +91,11 @@
     <Compile Include="RegCliente.Designer.cs">
       <DependentUpon>RegCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="RegistrarMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="RegistrarMantenimiento.Designer.cs">
+      <DependentUpon>RegistrarMantenimiento.cs</DependentUpon>
     </Compile>
     <Compile Include="Form6.cs">
       <SubType>Form</SubType>
@@ -115,22 +115,22 @@
     <Compile Include="Form8.Designer.cs">
       <DependentUpon>Form8.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form9.cs">
+    <Compile Include="ActualizarMantenimeinto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form9.Designer.cs">
-      <DependentUpon>Form9.cs</DependentUpon>
+    <Compile Include="ActualizarMantenimeinto.Designer.cs">
+      <DependentUpon>ActualizarMantenimeinto.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FacturacionMenu.resx">
+      <DependentUpon>FacturacionMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModClientes.resx">
       <DependentUpon>ModClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="RegistrarFactura.resx">
+      <DependentUpon>RegistrarFactura.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
@@ -138,8 +138,8 @@
     <EmbeddedResource Include="RegCliente.resx">
       <DependentUpon>RegCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="RegistrarMantenimiento.resx">
+      <DependentUpon>RegistrarMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.cs</DependentUpon>
@@ -150,8 +150,8 @@
     <EmbeddedResource Include="Form8.resx">
       <DependentUpon>Form8.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form9.resx">
-      <DependentUpon>Form9.cs</DependentUpon>
+    <EmbeddedResource Include="ActualizarMantenimeinto.resx">
+      <DependentUpon>ActualizarMantenimeinto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication3
 {
-    partial class Form1
+    partial class FacturacionMenu
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FacturacionMenu));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.holaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarFacturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
