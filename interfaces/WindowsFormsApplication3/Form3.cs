@@ -56,5 +56,11 @@ namespace WindowsFormsApplication3
         {
 
         }
+
+        private void facturaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form10 fo = new Form10();
+            fo.Show();
+        }
     }
 }

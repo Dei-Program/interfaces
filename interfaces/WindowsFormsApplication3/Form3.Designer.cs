@@ -33,8 +33,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.facturaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inventarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.facturaciónToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.administraciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -74,6 +74,7 @@
             this.facturaciónToolStripMenuItem.Name = "facturaciónToolStripMenuItem";
             this.facturaciónToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.facturaciónToolStripMenuItem.Text = "Clientes";
+            this.facturaciónToolStripMenuItem.Click += new System.EventHandler(this.facturaciónToolStripMenuItem_Click);
             // 
             // inventarioToolStripMenuItem
             // 
@@ -82,13 +83,6 @@
             this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(92, 24);
             this.inventarioToolStripMenuItem.Text = "Inventario";
             // 
-            // mantenimientoToolStripMenuItem
-            // 
-            this.mantenimientoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("mantenimientoToolStripMenuItem.Image")));
-            this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
-            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
-            this.mantenimientoToolStripMenuItem.Text = "Facturación";
-            // 
             // facturaciónToolStripMenuItem1
             // 
             this.facturaciónToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("facturaciónToolStripMenuItem1.Image")));
@@ -96,6 +90,13 @@
             this.facturaciónToolStripMenuItem1.Size = new System.Drawing.Size(121, 24);
             this.facturaciónToolStripMenuItem1.Text = "Mantenimiento";
             this.facturaciónToolStripMenuItem1.Click += new System.EventHandler(this.facturaciónToolStripMenuItem1_Click);
+            // 
+            // mantenimientoToolStripMenuItem
+            // 
+            this.mantenimientoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("mantenimientoToolStripMenuItem.Image")));
+            this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
+            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
+            this.mantenimientoToolStripMenuItem.Text = "Facturación";
             // 
             // administraciónToolStripMenuItem
             // 
