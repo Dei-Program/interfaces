@@ -26,7 +26,7 @@ namespace WindowsFormsApplication3
         {
 
         }
-
+        //
         private void nuevoClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form4 fo = new Form4();
