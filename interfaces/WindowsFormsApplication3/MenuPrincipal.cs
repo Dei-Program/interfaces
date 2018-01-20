@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication3
 {
-    public partial class Form3 : Form
+    public partial class MenuPrincipal : Form
     {
-        public Form3()
+        public MenuPrincipal()
         {
             InitializeComponent();
         }
@@ -59,7 +59,7 @@ namespace WindowsFormsApplication3
 
         private void facturaciónToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form10 fo = new Form10();
+            ModClientes fo = new ModClientes();
             fo.Show();
         }
     }

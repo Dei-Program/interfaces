@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication3
 {
-    public partial class Form10 : Form
+    public partial class ModClientes : Form
     {
-        public Form10()
+        public ModClientes()
         {
             InitializeComponent();
         }
@@ -29,7 +29,23 @@ namespace WindowsFormsApplication3
         //
         private void nuevoClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form4 fo = new Form4();
+            RegCliente fo = new RegCliente();
+            fo.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            RegCliente fo = new RegCliente();
             fo.Show();
         }
     }
