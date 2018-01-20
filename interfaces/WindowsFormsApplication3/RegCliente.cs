@@ -91,5 +91,12 @@ namespace WindowsFormsApplication3
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ModClientes fo = new ModClientes();
+            fo.Show();
+            this.Hide();
+        }
     }
 }

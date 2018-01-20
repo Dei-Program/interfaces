@@ -191,6 +191,7 @@
             this.button2.TabIndex = 44;
             this.button2.Text = "REGRESAR";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -230,7 +231,7 @@
             this.label7.Text = "CORREO ELECTRÓNICO:";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
-            // Form4
+            // RegCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -254,7 +255,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form4";
+            this.Name = "RegCliente";
             this.Text = "Registrar Cliente";
             this.Load += new System.EventHandler(this.Form4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

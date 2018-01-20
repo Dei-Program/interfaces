@@ -47,6 +47,14 @@ namespace WindowsFormsApplication3
         {
             RegCliente fo = new RegCliente();
             fo.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MenuPrincipal fo = new MenuPrincipal();
+            fo.Show();
+            this.Hide();
         }
     }
 }

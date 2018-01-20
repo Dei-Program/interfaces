@@ -61,6 +61,7 @@ namespace WindowsFormsApplication3
         {
             ModClientes fo = new ModClientes();
             fo.Show();
+            this.Hide();
         }
     }
 }
