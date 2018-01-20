@@ -7,7 +7,7 @@ using System.Windows.Forms;
 namespace WindowsFormsApplication3
 {
     static class Program
-    {
+    {//holas
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
