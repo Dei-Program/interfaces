@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication3
 {
-    public partial class ElimiProducto : Form
+    public partial class RegProducto : Form
     {
-        public ElimiProducto()
+        public RegProducto()
         {
             InitializeComponent();
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ElimiProducto_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }
