@@ -16,5 +16,12 @@ namespace WindowsFormsApplication3
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ModMantenimiento fo = new ModMantenimiento();
+            fo.Show();
+            this.Hide();
+        }
     }
 }

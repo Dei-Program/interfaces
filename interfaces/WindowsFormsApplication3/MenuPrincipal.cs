@@ -29,7 +29,9 @@ namespace WindowsFormsApplication3
 
         private void facturaciónToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            
+            ModMantenimiento fo = new ModMantenimiento();
+            fo.Show();
+            this.Hide();
 
         }
 
