@@ -17,46 +17,35 @@ namespace WindowsFormsApplication3
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
+            MenuPrincipal menu = new MenuPrincipal();
+            menu.Show();
+            this.Hide();
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void holaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             RegistrarFactura lo = new RegistrarFactura();
             lo.Show();
             this.Hide();
         }
 
-        private void modificarFacturaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            
-
-        }
-
-        private void eliminarCancelarFacturaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            MenuPrincipal menu = new  MenuPrincipal();
-            menu.Show();
+            ConsultarFactura cfact = new ConsultarFactura();
+            cfact.Show();
             this.Hide();
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-               
+            AnularFactura afact = new AnularFactura();
+            afact.Show();
+            this.Hide();
+
         }
     }
 }

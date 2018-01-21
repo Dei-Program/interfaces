@@ -28,5 +28,12 @@ namespace WindowsFormsApplication3
             factmenu.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FacturacionMenu menu = new FacturacionMenu();
+            menu.Show();
+            this.Hide();
+        }
     }
 }

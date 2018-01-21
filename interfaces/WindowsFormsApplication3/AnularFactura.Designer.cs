@@ -33,9 +33,26 @@
             this.button3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button4 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.CÓDIGO = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.DESCRIPCIÓN = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.CANTIDAD = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.PRECIO = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.IMPUESTO = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.DESC = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.IMPORTE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button2
@@ -64,7 +81,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(29, 51);
+            this.label1.Location = new System.Drawing.Point(21, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 13);
             this.label1.TabIndex = 50;
@@ -72,51 +89,184 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(119, 51);
+            this.textBox1.Location = new System.Drawing.Point(111, 20);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(157, 20);
             this.textBox1.TabIndex = 51;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(303, 51);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 52;
-            this.button1.Text = "BUSCAR";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 96);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(688, 221);
-            this.richTextBox1.TabIndex = 53;
-            this.richTextBox1.Text = "";
-            // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(625, 46);
+            this.button4.Location = new System.Drawing.Point(491, 12);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(75, 38);
             this.button4.TabIndex = 54;
             this.button4.Text = "ANULAR";
             this.button4.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(23, 30);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 13);
+            this.label2.TabIndex = 56;
+            this.label2.Text = "Cédula/RUC";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(23, 65);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(61, 13);
+            this.label3.TabIndex = 57;
+            this.label3.Text = "NOMBRES";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(23, 99);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(66, 13);
+            this.label4.TabIndex = 58;
+            this.label4.Text = "DIRECCIÓN";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(23, 131);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(64, 13);
+            this.label5.TabIndex = 59;
+            this.label5.Text = "TELÉFONO";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(120, 23);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(143, 20);
+            this.textBox2.TabIndex = 60;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(120, 58);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(143, 20);
+            this.textBox3.TabIndex = 61;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(120, 92);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(143, 20);
+            this.textBox4.TabIndex = 62;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(120, 124);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(143, 20);
+            this.textBox5.TabIndex = 63;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Location = new System.Drawing.Point(24, 49);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(542, 183);
+            this.groupBox1.TabIndex = 64;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "DETALLE DEL CLIENTE";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // listView1
+            // 
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.CÓDIGO,
+            this.DESCRIPCIÓN,
+            this.CANTIDAD,
+            this.PRECIO,
+            this.IMPUESTO,
+            this.DESC,
+            this.IMPORTE});
+            this.listView1.FullRowSelect = true;
+            this.listView1.GridLines = true;
+            this.listView1.Location = new System.Drawing.Point(24, 238);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(683, 86);
+            this.listView1.TabIndex = 65;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // CÓDIGO
+            // 
+            this.CÓDIGO.Text = "CÓDIGO";
+            // 
+            // DESCRIPCIÓN
+            // 
+            this.DESCRIPCIÓN.Text = "NOMBRE";
+            this.DESCRIPCIÓN.Width = 109;
+            // 
+            // CANTIDAD
+            // 
+            this.CANTIDAD.Text = "CANTIDAD";
+            this.CANTIDAD.Width = 91;
+            // 
+            // PRECIO
+            // 
+            this.PRECIO.Text = "PRECIO";
+            this.PRECIO.Width = 93;
+            // 
+            // IMPUESTO
+            // 
+            this.IMPUESTO.Text = "IMPUESTO";
+            this.IMPUESTO.Width = 82;
+            // 
+            // DESC
+            // 
+            this.DESC.Text = "DESCUENTO";
+            this.DESC.Width = 112;
+            // 
+            // IMPORTE
+            // 
+            this.IMPORTE.Text = "IMPORTE";
+            this.IMPORTE.Width = 152;
+            // 
+            // button1
+            // 
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.button1.Location = new System.Drawing.Point(295, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 54);
+            this.button1.TabIndex = 66;
+            this.button1.Text = "BUSCAR";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // AnularFactura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(761, 499);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.richTextBox1);
+            this.ClientSize = new System.Drawing.Size(728, 368);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Name = "AnularFactura";
             this.Text = "Anular Factura";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,8 +278,24 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ColumnHeader CÓDIGO;
+        private System.Windows.Forms.ColumnHeader DESCRIPCIÓN;
+        private System.Windows.Forms.ColumnHeader CANTIDAD;
+        private System.Windows.Forms.ColumnHeader PRECIO;
+        private System.Windows.Forms.ColumnHeader IMPUESTO;
+        private System.Windows.Forms.ColumnHeader DESC;
+        private System.Windows.Forms.ColumnHeader IMPORTE;
+        private System.Windows.Forms.Button button1;
     }
 }
