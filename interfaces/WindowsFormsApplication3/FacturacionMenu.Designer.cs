@@ -72,8 +72,8 @@
             // eliminarCancelarFacturaToolStripMenuItem
             // 
             this.eliminarCancelarFacturaToolStripMenuItem.Name = "eliminarCancelarFacturaToolStripMenuItem";
-            this.eliminarCancelarFacturaToolStripMenuItem.Size = new System.Drawing.Size(155, 20);
-            this.eliminarCancelarFacturaToolStripMenuItem.Text = "Eliminar/Cancelar Factura";
+            this.eliminarCancelarFacturaToolStripMenuItem.Size = new System.Drawing.Size(96, 20);
+            this.eliminarCancelarFacturaToolStripMenuItem.Text = "Anular Factura";
             this.eliminarCancelarFacturaToolStripMenuItem.Click += new System.EventHandler(this.eliminarCancelarFacturaToolStripMenuItem_Click);
             // 
             // pictureBox1
@@ -109,6 +109,7 @@
             this.button3.TabIndex = 65;
             this.button3.Text = "SALIR";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 

@@ -54,25 +54,9 @@ namespace WindowsFormsApplication3
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            RegistrarFactura lo = new RegistrarFactura();
-            lo.Show();
-            this.Hide();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            ConsultarFactura cfact = new ConsultarFactura();
-            cfact.Show();
-            this.Hide();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            AnularFactura afact = new AnularFactura();
-            afact.Show();
-            this.Hide();
+               
         }
     }
 }

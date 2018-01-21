@@ -23,5 +23,12 @@ namespace WindowsFormsApplication3
             fo.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+           
+            this.Close();
+            
+        }
     }
 }
