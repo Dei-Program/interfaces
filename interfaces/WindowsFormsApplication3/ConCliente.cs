@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication3
 {
-    public partial class Form6 : Form
+    public partial class ConCliente : Form
     {
-        public Form6()
+        public ConCliente()
         {
             InitializeComponent();
         }
@@ -24,7 +24,9 @@ namespace WindowsFormsApplication3
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            ModClientes fo = new ModClientes();
+            fo.Show();
+            this.Hide();
         }
     }
 }

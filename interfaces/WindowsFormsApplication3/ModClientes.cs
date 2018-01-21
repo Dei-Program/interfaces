@@ -56,5 +56,19 @@ namespace WindowsFormsApplication3
             fo.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ActualizarCliente fo = new ActualizarCliente();
+            fo.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ConCliente fo = new ConCliente();
+            fo.Show();
+            this.Hide();
+        }
     }
 }

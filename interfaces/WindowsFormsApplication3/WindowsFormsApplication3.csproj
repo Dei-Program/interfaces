@@ -97,17 +97,17 @@
     <Compile Include="RegistrarMantenimiento.Designer.cs">
       <DependentUpon>RegistrarMantenimiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form6.cs">
+    <Compile Include="ConCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.Designer.cs">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <Compile Include="ConCliente.Designer.cs">
+      <DependentUpon>ConCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7.cs">
+    <Compile Include="EliProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7.Designer.cs">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <Compile Include="EliProducto.Designer.cs">
+      <DependentUpon>EliProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="ActualizarCliente.cs">
       <SubType>Form</SubType>
@@ -141,11 +141,11 @@
     <EmbeddedResource Include="RegistrarMantenimiento.resx">
       <DependentUpon>RegistrarMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6.resx">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <EmbeddedResource Include="ConCliente.resx">
+      <DependentUpon>ConCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7.resx">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <EmbeddedResource Include="EliProducto.resx">
+      <DependentUpon>EliProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ActualizarCliente.resx">
       <DependentUpon>ActualizarCliente.cs</DependentUpon>
