@@ -192,6 +192,7 @@
             this.button2.Size = new System.Drawing.Size(49, 58);
             this.button2.TabIndex = 12;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // MenuPrincipal
             // 
