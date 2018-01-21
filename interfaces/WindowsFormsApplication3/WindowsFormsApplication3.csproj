@@ -85,6 +85,12 @@
     <Compile Include="ModClientes.Designer.cs">
       <DependentUpon>ModClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModInventario.Designer.cs">
+      <DependentUpon>ModInventario.cs</DependentUpon>
+    </Compile>
     <Compile Include="RegistrarFactura.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ModClientes.resx">
       <DependentUpon>ModClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModInventario.resx">
+      <DependentUpon>ModInventario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrarFactura.resx">
       <DependentUpon>RegistrarFactura.cs</DependentUpon>
