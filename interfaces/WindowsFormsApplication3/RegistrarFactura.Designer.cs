@@ -458,6 +458,7 @@
             this.button10.TabIndex = 37;
             this.button10.Text = "AÑADIR MANTENIMIENTO";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
@@ -539,6 +540,7 @@
             this.button3.TabIndex = 44;
             this.button3.Text = "SALIR";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button
             // 
@@ -574,7 +576,7 @@
             this.label11.TabIndex = 47;
             this.label11.Text = "CIUDAD:";
             // 
-            // Form2
+            // RegistrarFactura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -629,7 +631,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
+            this.Name = "RegistrarFactura";
             this.Text = "Registrar Factura";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
