@@ -36,7 +36,7 @@ namespace WindowsFormsApplication3
 
         private void modificarFacturaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            EliProducto fo = new EliProducto();
+            ElimiProducto fo = new ElimiProducto();
             fo.Show();
             this.Hide();
 
