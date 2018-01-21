@@ -109,6 +109,12 @@
     <Compile Include="FacturacionMenu.Designer.cs">
       <DependentUpon>FacturacionMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
     <Compile Include="ModClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -200,6 +206,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FacturacionMenu.resx">
       <DependentUpon>FacturacionMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModClientes.resx">
       <DependentUpon>ModClientes.cs</DependentUpon>
