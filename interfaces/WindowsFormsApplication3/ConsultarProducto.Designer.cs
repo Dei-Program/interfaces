@@ -38,7 +38,6 @@
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -47,12 +46,13 @@
             // 
             this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
             this.button15.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button15.Location = new System.Drawing.Point(441, 28);
+            this.button15.Location = new System.Drawing.Point(390, 25);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(154, 49);
+            this.button15.Size = new System.Drawing.Size(142, 52);
             this.button15.TabIndex = 58;
             this.button15.Text = "CANCELAR";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button2
             // 
@@ -69,9 +69,9 @@
             // 
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button1.Location = new System.Drawing.Point(262, 25);
+            this.button1.Location = new System.Drawing.Point(244, 23);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 54);
+            this.button1.Size = new System.Drawing.Size(140, 54);
             this.button1.TabIndex = 56;
             this.button1.Text = "BUSCAR";
             this.button1.UseVisualStyleBackColor = true;
@@ -80,7 +80,7 @@
             // 
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button3.Location = new System.Drawing.Point(512, 211);
+            this.button3.Location = new System.Drawing.Point(382, 211);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(150, 51);
             this.button3.TabIndex = 55;
@@ -93,40 +93,35 @@
             this.NOMBRE,
             this.columnHeader1,
             this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4});
+            this.columnHeader3});
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
             this.listView1.Location = new System.Drawing.Point(10, 85);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(585, 102);
+            this.listView1.Size = new System.Drawing.Size(481, 102);
             this.listView1.TabIndex = 54;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             // 
             // NOMBRE
             // 
-            this.NOMBRE.Text = "NOMBRE";
+            this.NOMBRE.Text = "CÓDIGO";
+            this.NOMBRE.Width = 112;
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "CÉDULA/RUC";
-            this.columnHeader1.Width = 97;
+            this.columnHeader1.Text = "NOMBRE";
+            this.columnHeader1.Width = 150;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "CIUDAD";
-            this.columnHeader2.Width = 92;
+            this.columnHeader2.Text = "PRECIO";
+            this.columnHeader2.Width = 109;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "DIRECCIÓN";
+            this.columnHeader3.Text = "CANTIDAD";
             this.columnHeader3.Width = 106;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "TELÉFONO";
-            this.columnHeader4.Width = 81;
             // 
             // textBox1
             // 
@@ -140,15 +135,16 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(52, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 13);
+            this.label1.Size = new System.Drawing.Size(111, 13);
             this.label1.TabIndex = 52;
-            this.label1.Text = "INGRESAR CÉDULA/RUC:";
+            this.label1.Text = "INGRESAR CÓDIGO:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // ConsultarProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(673, 287);
+            this.ClientSize = new System.Drawing.Size(551, 287);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -174,7 +170,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
     }
