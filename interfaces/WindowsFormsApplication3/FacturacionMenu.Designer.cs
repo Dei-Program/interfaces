@@ -35,6 +35,7 @@
             this.eliminarCancelarFacturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button6 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -87,7 +88,7 @@
             // 
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
             this.button6.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button6.Location = new System.Drawing.Point(0, 41);
+            this.button6.Location = new System.Drawing.Point(12, 290);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(151, 43);
             this.button6.TabIndex = 46;
@@ -95,11 +96,23 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // button3
+            // 
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.button3.Location = new System.Drawing.Point(462, 282);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(150, 51);
+            this.button3.TabIndex = 65;
+            this.button3.Text = "SALIR";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // FacturacionMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(624, 345);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
@@ -123,6 +136,7 @@
         private System.Windows.Forms.ToolStripMenuItem eliminarCancelarFacturaToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button3;
     }
 }
 

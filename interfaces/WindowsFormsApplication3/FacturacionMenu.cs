@@ -36,17 +36,13 @@ namespace WindowsFormsApplication3
 
         private void modificarFacturaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ElimiProducto fo = new ElimiProducto();
-            fo.Show();
-            this.Hide();
+            
 
         }
 
         private void eliminarCancelarFacturaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ConCliente fo = new ConCliente();
-            fo.Show();
-            this.Hide();
+            
 
         }
 
