@@ -61,6 +61,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EliCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EliCliente.Designer.cs">
+      <DependentUpon>EliCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ElimiProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ElimiProducto.Designer.cs">
+      <DependentUpon>ElimiProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="FacturacionMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,12 +115,6 @@
     <Compile Include="ConCliente.Designer.cs">
       <DependentUpon>ConCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="EliProducto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EliProducto.Designer.cs">
-      <DependentUpon>EliProducto.cs</DependentUpon>
-    </Compile>
     <Compile Include="ActualizarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +129,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EliCliente.resx">
+      <DependentUpon>EliCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElimiProducto.resx">
+      <DependentUpon>ElimiProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FacturacionMenu.resx">
       <DependentUpon>FacturacionMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,9 +155,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ConCliente.resx">
       <DependentUpon>ConCliente.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EliProducto.resx">
-      <DependentUpon>EliProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ActualizarCliente.resx">
       <DependentUpon>ActualizarCliente.cs</DependentUpon>

@@ -28,5 +28,10 @@ namespace WindowsFormsApplication3
             fo.Show();
             this.Hide();
         }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

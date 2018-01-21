@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication3
 {
-    public partial class EliProducto : Form
+    public partial class EliCliente : Form
     {
-        public EliProducto()
+        public EliCliente()
         {
             InitializeComponent();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
