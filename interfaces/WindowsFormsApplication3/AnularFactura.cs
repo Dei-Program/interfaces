@@ -19,9 +19,7 @@ namespace WindowsFormsApplication3
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FacturacionMenu factmenu = new FacturacionMenu();
-            factmenu.Show();
-            this.Hide();
+          
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
@@ -50,6 +48,23 @@ namespace WindowsFormsApplication3
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FacturacionMenu fac = new FacturacionMenu();
+            fac.Show();
+            this.Hide();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
         {
 
         }
