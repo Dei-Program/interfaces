@@ -142,9 +142,9 @@
             // 
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button2.Location = new System.Drawing.Point(575, 279);
+            this.button2.Location = new System.Drawing.Point(554, 279);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 51);
+            this.button2.Size = new System.Drawing.Size(150, 50);
             this.button2.TabIndex = 100;
             this.button2.Text = "SALIR";
             this.button2.UseVisualStyleBackColor = true;
@@ -154,7 +154,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(737, 355);
+            this.ClientSize = new System.Drawing.Size(734, 355);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
